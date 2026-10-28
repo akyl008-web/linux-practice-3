@@ -1,0 +1,6 @@
+Родитель PID=17315 завершается, не дожидаясь ребёнка
+Ребёнок PID=17316, родитель PPID=17315
+Родитель завершился. Новый родитель: PPID=1 (/usr/lib/systemd/systemd --switched-root --system --deserialize=51)
+    PID    PPID STAT CMD
+      1       0 Ss   /usr/lib/systemd/systemd --switched-root --system --deserialize=51
+  17316       1 S    python3 orphan.py

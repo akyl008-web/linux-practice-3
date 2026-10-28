@@ -1,0 +1,22 @@
+    PID  S          RSS  CMD
+   1236  S     13580 kB  /usr/lib/systemd/systemd --user
+   1244  S      3900 kB  └── (sd-pam)
+   1270  S      6504 kB  -bash
+   1438  S     18244 kB  /home/student1/.vscode-server/code-7debcd0e2acdea1c52de81bf9ee16204444
+   5742  S      1652 kB  └── sh /home/student1/.vscode-server/cli/servers/Stable-e646868227c3e3a9e3
+   5751  S    102424 kB      └── /home/student1/.vscode-server/cli/servers/Stable-e646868227c3e3a9e3f24
+   5816  S    165324 kB          └── /home/student1/.vscode-server/cli/servers/Stable-e646868227c3e3a9e3f24
+   5867  S    109740 kB              └── /home/student1/.vscode-server/cli/servers/Stable-e646868227c3e3a9e3f24
+   5638  S      8660 kB  sshd-session: student1@notty
+   5639  S      3816 kB  └── -bash
+   5655  S      1764 kB      └── sh
+   5673  S     19736 kB          └── /home/student1/.vscode-server/code-7debcd0e2acdea1c52de81bf9ee16204444
+   5702  S      1652 kB              └── sh /home/student1/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52
+   5706  S    185204 kB                  └── /home/student1/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de8
+   5780  S     93068 kB                      └── /home/student1/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de8
+  17014  S      5348 kB                          └── /bin/bash --init-file /home/student1/.vscode-server/cli/servers/Stable
+  17063  R     11976 kB                              └── python3 ptree.py
+  17064  S      6056 kB                              └── tee ptree_output.txt
+  16949  R    753384 kB                      └── /home/student1/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de8
+  16960  S     72132 kB                      └── /home/student1/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de8
+  16907  S      6288 kB          └── sleep 180

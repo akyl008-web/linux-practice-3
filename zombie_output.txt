@@ -1,0 +1,7 @@
+Родитель PID=17276, ребёнок PID=17278 завершился, wait() не вызван:
+    PID    PPID STAT CMD
+  17276   17014 S+   python3 zombie.py
+  17278   17276 Z+   [python3] <defunct>
+После os.waitpid() зомби убран:
+    PID    PPID STAT CMD
+  17276   17014 S+   python3 zombie.py

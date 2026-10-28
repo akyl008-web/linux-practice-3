@@ -1,0 +1,4 @@
+$ ps -u student1 -o stat= | grep -c ^Z
+0
+$ pgrep -u student1 -fa "ptree.py|runner.py|zombie.py|orphan.py|cow.py"
+нет процессов

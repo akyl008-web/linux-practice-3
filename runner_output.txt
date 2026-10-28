@@ -1,0 +1,21 @@
++ python3 runner.py 3 bash -c 'sleep $((RANDOM % 3 + 1)); exit $((RANDOM % 3))'
+Запущен #1: PID=17119
+Запущен #2: PID=17120
+Запущен #3: PID=17121
+#2 PID=17120 код=1 время=1.012 с
+#3 PID=17121 код=0 время=1.013 с
+#1 PID=17119 код=2 время=3.014 с
++ python3 runner.py 2 ls /nope
+Запущен #1: PID=17158
+lsls: cannot access '/nope': No such file or directory: cannot access '/nope': No such file or directory
+
+Запущен #2: PID=17159
+#2 PID=17159 код=2 время=0.002 с
+#1 PID=17158 код=2 время=0.003 с
++ python3 runner.py 1 nosuchcmd
+exec nosuchcmd: No such file or directory
+Запущен #1: PID=17161
+#1 PID=17161 код=127 время=0.002 с
++ python3 runner.py
+Использование: python3 runner.py N <команда> [аргументы...]
+Пример: python3 runner.py 3 sleep 1
